@@ -54,10 +54,6 @@ class Webhook {
 		curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($this->data));
 
 		curl_exec($curl);
-
-		var_dump(curl_error($curl));
-		var_dump(curl_errno($curl));
-
 		curl_close($curl);
 	}
 }
