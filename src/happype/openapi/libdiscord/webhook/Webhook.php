@@ -21,21 +21,13 @@ use const CURLOPT_URL;
 
 class Webhook {
 
+	/** @var mixed[] */
 	private array $data;
 
 	public function __construct() {}
 
 	public function setContent(Content $content): self {
 		$this->data[$content->getContentType()] = $content->getContent();
-		return $this;
-	}
-
-	public function addEmbed(Embed $embed): self {
-		if(count($this->data["embeds"] ?? []) == 10) {
-			throw new AccessDeniedException("Discord allows sending only up to 10 embeds per web hook.");
-		}
-
-		$this->data["embeds"][] = $embed->getEmbedData();
 		return $this;
 	}
 

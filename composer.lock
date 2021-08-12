@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e85726c40f71fe0e2b0ac6db5c06711",
+    "content-hash": "38d32c9174b97c125e07fa31a0f1a19e",
     "packages": [
         {
             "name": "pocketmine/color",
@@ -115,10 +115,8 @@
     "prefer-lowest": false,
     "platform": {
         "php": "^8.0",
-        "ext-yaml": "*",
-        "ext-pthreads": "*",
         "ext-json": "*",
-        "ext-mysqli": "*"
+        "ext-curl": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"

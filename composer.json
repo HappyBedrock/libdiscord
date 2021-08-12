@@ -4,10 +4,8 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.0",
-    "ext-yaml": "*",
-    "ext-pthreads": "*",
     "ext-json": "*",
-    "ext-mysqli": "*",
+    "ext-curl": "*",
     "pocketmine/color": "*"
   },
   "require-dev": {
