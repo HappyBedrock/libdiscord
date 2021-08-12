@@ -1,5 +1,5 @@
 {
-  "name": "happype/libservers",
+  "name": "happype/libdiscord",
   "description": "Simple library which allows to send discord webhooks",
   "minimum-stability": "dev",
   "require": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47e5d4687bfaedebf194ca8fd26efc08",
+    "content-hash": "9e85726c40f71fe0e2b0ac6db5c06711",
     "packages": [
         {
             "name": "pocketmine/color",
